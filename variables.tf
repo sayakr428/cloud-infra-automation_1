@@ -1,4 +1,9 @@
-variable "aws_region" {
+variable "project" {
   type    = string
-  default = "ap-south-1"
+  default = "cloud-butler"
+}
+
+variable "blueprint_json" {
+  type    = string
+  default = "{}"   # empty blueprint by default
 }
